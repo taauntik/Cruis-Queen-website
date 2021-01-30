@@ -41,6 +41,9 @@ bookNow.addEventListener("click", function () {
   } else {
     bookingArea.style.display = "none";
     confirmationMsg.style.display = "block";
+    document.body.style.backgroundImage = "none";
+    document.body.style.background =
+      "linear-gradient(to right, #00AAFF, #00FF6C)";
     const h4 = document.createElement("h4");
     h4.innerText = `You have booked ${firstClassTicket} first Class and ${economyTicket} economy class ticket`;
     messageBox.appendChild(h4);

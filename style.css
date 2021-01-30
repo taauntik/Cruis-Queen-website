@@ -142,7 +142,8 @@ nav ul li a:hover, a.active{
     border-radius: 10px;
     box-shadow: 10px 10px 15px gray;
     text-align:center;
-    padding: 15px;
+    padding: 50px;
+    line-height: 40px;
     width: 600px;
 }
 
